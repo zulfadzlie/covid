@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chart {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    /* display: block;
+    width: 100%;
+    max-width: 30rem; */
+}
