@@ -10,21 +10,22 @@
     <title>Covid Data Chart of Malaysia and Neighbors</title>
 </head>
 <body>
-    <div id="myDiv" class="chart"></div>
 
+    <div class="radio-container">
+        <form id="radio-buttons" class="radio-buttons">
+            <input type="radio" id="radio-cases" class="radio-button" name="radio-buttons" value="Cases" onclick="radioSelected('Cases')" checked="checked">
+            <label for="radio-cases" class = "radio-label">Cases</label>
+            
+            <input type="radio" id="radio-deaths" class="radio-button" name="radio-buttons" value="Deaths" onclick="radioSelected('Deaths')">
+            <label for="radio-cases" class = "radio-label">Deaths</label>
+        </form>
+    </div>
 
-    <div class="container">
+    <div id="chart-container" class="chart-container">
+        <div id="myDiv" class="chart"></div>
+    </div>
 
-
-
-        <br>
-
-        <!-- <div id="myDiv"></div> -->
-
-        <!-- <p id="location"></p>
-        <p id="date"></p>
-        <p id="vaccinated"></p>
-        <p id="cases"></p> -->
+    <div class="container">   
         <p>Latest data as of <span id="date"></span></p>
         <a href="https://covid.ourworldindata.org/">Source: Our World In Data</a>
     </div>
