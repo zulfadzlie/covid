@@ -48,9 +48,13 @@ var layout = {
     },
 
     legend: {
-        // "orientation": "h",
-        x: 0.01,
-        y: 0.99
+        "orientation": "h",
+        bordercolor: "#E2E2E2",
+        borderwidth: 1,
+        x: 0.5,
+        y: 1.15,
+        xanchor: "center"
+
     }
 }
 
